@@ -1,10 +1,16 @@
 # Bulk image processor
 ## Description
 
-This Python script ....
+This Python script is designed for batch image processing. It identifies and processes all JPEG images in a specified folder, detects "blue" regions in the images, and replaces these regions with black pixels. The processed images are then saved to a designated output directory.
 
 ## Application Overview
-Picture
+
+
+This application automates the following tasks:
+
+- Detects regions in images that match a specific "blue" color range.
+- Changes the blue regions to black.
+- Outputs the modified images into a new folder.
 
 ## Installation
 
